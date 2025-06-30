@@ -24,51 +24,17 @@
 # 
 # ---
 # 
-# ## 📁 Folder Structure
-# 
 # player_tracking/
-# │
-# ├── notebooks/
-# │   ├── intern_cross_camera.ipynb
-# │   └── intern_reid_single_feed.ipynb
-# │
 # ├── output/
-# │   ├── tracking_plot.png
-# │   ├── id_mapping.txt
-# │
+# │   ├── 1/
+# │   ├── 2/
+# │   └── reid_pairs/
 # ├── videos/
+# │   ├── 15sec_input_720p.mp4
 # │   ├── broadcast.mp4
-# │   ├── tacticam.mp4
-# │   └── 15sec_input_720p.mp4
-# │
-# ├── models/
-# │   └── yolov11_weights.pt (or keep it in Google Drive)
-# │
+# │   └── tacticam.mp4
 # ├── README.md
-# ├── requirements.txt
-# └── .gitignore
 # 
-# ---
-# 
-# ## 📦 Installation
-# 
-# Install required libraries using:
-# 
-# ```bash
-# pip install -r requirements.txt
-# ```
-# 
-# Make sure Tesseract-OCR is installed and added to your system PATH if using OCR (pytesseract).
-# 
-# ---
-# 
-# ## 📊 Sample Output
-# 
-# Example: Player tracking consistency across 15-second video.
-# 
-# ![Tracking Plot](output/tracking_plot.png)
-# 
-# ---
 # 
 # ## 🚀 Future Improvements / If I Had More Time
 # 
@@ -86,19 +52,19 @@
 # - **📈 Visualize Player Movement Over Time**  
 #   Generate interactive player trajectories or heatmaps to analyze player behavior, spacing, and roles.
 # 
-# - **📦 Deploy as a Web App**  
-#   Build a simple interface (e.g., Streamlit or Flask) where users can upload videos and visualize tracked outputs with timelines and ID overlays.
-# 
 # - **💾 Optimize for Real-Time Performance**  
 #   Integrate multi-threaded inference pipelines and lightweight models (e.g., YOLOv8-nano) for near real-time tracking.
-# 
-# - **📂 Add Support for More Sports**  
-#   Adapt the ID assignment logic for basketball, hockey, or volleyball with court-aware movement priors.
-# 
-# ---
 # 
 # ## 🙌 Acknowledgements
 # 
 # - Ultralytics YOLOv11 for detection
 # - Pytesseract for ID text extraction
 # - Built as part of a computer vision tracking project
+# 
+# ---
+# 
+# ## 🧠 Author
+# 
+# **Tejas Mani P** – AI/ML Engineer  
+# 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+# 📫 Email: your_email@example.com
